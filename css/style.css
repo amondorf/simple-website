@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Advent Pro Regular'), local('AdventPro-Regular'), url('http://themes.googleusercontent.com/static/fonts/adventpro/v1/rT9jpj7pBpZV6AmssbZKkxsxEYwM7FgeyaSgU71cLG0.woff') format('woff');
+}
+
+* {
+  /*border: 1px solid red !important;*/
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: 'JunctionRegular';
+  font-weight: lighter;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  max-height: 500px;
+  padding-top: 20px;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 40px;
+}
+
+p {
+  text-align: left;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 6px;
+  font-family: 'Advent Pro';
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/*HEADER*/
+.headerIMG {
+  margin-top: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.headerFont {
+  font-family: 'Advent Pro';
+  margin-top: 10px;
+}
+
+/*ABOUTME*/
+.imageCircle {
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  height: 30%;
+  width: 30%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+/*GENERAL*/
+.landingpageIMG {
+  position: relative;
+  max-width: 750px;
+  max-height: 450px;
+  overflow: hidden;
+
+  /*width: 500px;*/
+}
+
+#landingpageIMGtext {
+  position: absolute;
+   width: 240px;
+   left: 10px;
+   bottom: 50px;
+   background: white;
+   color: black;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.item {
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
+
+.bottomspace {
+  height: 160px;
+}
+
+#storytext {
+  padding-top: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
+  line-height: 1.5;
+}
+
+#footer {
+   position:fixed;
+   margin-top: 50px;
+   bottom:0;
+   width:100%;
+   height:35px;   /* Height of the footer */
+   background:#FDEDEC;
+}
+#socialFooter {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  max-width: 20px;
+  max-height: 20px;
+}
+
+/*makes links black not blue*/
+a:link    {color:#000;}  /* unvisited link  */
+a:visited {color:#000;}  /* visited link    */
+a:hover   {color:#D7BDE2;}  /* mouse over link */
+a:active  {color:#000;}  /* selected link   */
+
+/*search box*/
+.input[type=text] {
+    width: 100px;
+}
+
+.searchbox {
+  position: relative;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  font-size: 16px;
+}
