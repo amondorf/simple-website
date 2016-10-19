@@ -8,7 +8,7 @@
 * {
   /*border: 1px solid red !important;*/
   box-sizing: border-box;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0;
 }
@@ -93,17 +93,42 @@ h2 {
   max-width: 750px;
   max-height: 450px;
   overflow: hidden;
+}
 
-  /*width: 500px;*/
+.homelandingpageIMG {
+  position: relative;
+  /*max-width: 750px;
+  max-height: 450px;
+  overflow: hidden;*/
 }
 
 #landingpageIMGtext {
   position: absolute;
-   width: 240px;
+   width: 280px;
    left: 10px;
    bottom: 50px;
    background: white;
    color: black;
+}
+
+#hometopstorylIMGtext {
+  position: absolute;
+   width: 280px;
+   left: 170px;
+   bottom: 150px;
+   background: white;
+   color: black;
+}
+
+#homelandingpageIMGtext {
+  position: absolute;
+   width: 170px;
+   left: 60px;
+   padding-bottom: 10px;
+   padding-top: 0px;
+   bottom: 120px;
+   background: white;
+   opacity: 0.4;
 }
 
 .container {
@@ -117,10 +142,39 @@ h2 {
 }
 
 .item {
+  /*width: 100%;*/
+  padding: 0;
+  margin-bottom: 20px;
+  align-self: flex-end;
+}
+
+.itemSearch {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
   align-self: flex-end;
+}
+
+.itemLeft {
+  width: 10%;
+  padding: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 2;
+  font-family: 'Advent Pro';
+}
+
+.itemRight {
+  width: 90%;
+}
+
+.itemHome {
+  width: 25%;
+  max-height: 250px;
+  overflow: hidden;
+  margin-top: 30px;
 }
 
 .bottomspace {
@@ -164,6 +218,7 @@ a:active  {color:#000;}  /* selected link   */
 .searchbox {
   position: relative;
   float: right;
+  margin-right: 120px;
   margin-top: 20px;
   margin-bottom: 20px;
   height: 30px;
